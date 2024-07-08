@@ -1,5 +1,5 @@
-console.log('HELLO WORLD');
-document.getElementById('test').innerHTML="Test ID";
+// console.log('HELLO WORLD');
+// document.getElementById('test').innerHTML="Test ID";
 
 document.write("doc write meo meo ");
 

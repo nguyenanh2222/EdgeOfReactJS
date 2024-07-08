@@ -1,0 +1,49 @@
+<!-- 
+Bài 1: Trong HTML cho một ô input, khi người dùng thay đổi giá trị của ô input dó thì console,log ra giá trị đó.
+Bài 2: Trong javascript cho hai biến a và b, và trong html cho một nút bấm => viết chương chình khi bấm vào hiển thị ra a + b (document.write, alert, console.log)
+Bài 3: Cho a = 10, b = 5, c = 20, d= 15. Tính và hiển thị (console.log, alert, document.write) a + b * c - d  / 2
+Bài 4: Trên HTML cho hai ô input để người dùng nhập và một ô button khi click vào thì hiển thị ra giá trị của hai ô đó
++ Tinh tổng của giá trị của hai ô đó và hiển thị khi người dùng click vào nút.
+Tìm hiểu trước về bài Biến, Kiểu dữ liệu và Toán tử. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> Bài 1: Trong HTML cho một ô input, khi người dùng thay đổi giá trị của ô input dó thì console,log ra giá trị đó. -->
+    </div>
+        <input type="text" id="input">
+    <button onclick="testInput()">người dùng thay đổi giá trị</button>
+    <div id = 'chkInput'></div>
+
+    <div> Bài 2: Trong javascript cho hai biến a và b, và trong html cho một nút bấm => viết chương chình khi bấm vào hiển thị ra a + b (document.write, alert, console.log) -->
+    </div>
+<button onclick="testInputCalForAb(1, 2)">A + B</button>
+<div id = 'chkInputCalForXY'></div>
+
+<div> Bài 3: Cho a = 10, b = 5, c = 20, d= 15. Tính và hiển thị (console.log, alert, document.write) a + b * c - d  / 2 
+</div>
+
+<button onclick="testInputCalForAbcd()">a + b * c - d  / 2</button>
+<div id = 'chkInputCalForAbcd'></div>
+
+<div>
+Bài 4: Trên HTML cho hai ô input để người dùng nhập và một ô button khi click vào thì hiển thị ra giá trị của hai ô đó
++ Tinh tổng của giá trị của hai ô đó và hiển thị khi người dùng click vào nút.
+</div> 
+<input type="number" id="inputX"> inputX </input>
+<input type="number" id="inputY"> inputY </input>
+<button onclick="testInputCalForXY()">submit</button>
+<div id = 'chkInputCalForXY'></div>
+<script>
+    
+</script>
+<script src="./src/js/helloJs.js"></script>
+</body>
+</html>
+    
